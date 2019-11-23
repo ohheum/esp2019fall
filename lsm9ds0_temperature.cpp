@@ -1,4 +1,6 @@
 /* To build and execute this program:
+	$ sudo apt install i2c-tools       (Not required)
+	$ sudo apt install libi2c-dev
 	$ g++ -o read_temp lsm9ds0_temperature.cpp -li2c
 	$ ./read_temp 
 */

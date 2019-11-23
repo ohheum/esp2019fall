@@ -1,3 +1,8 @@
+/* To build and execute this program:
+	$ g++ -o read_temp lsm9ds0_temperature.cpp -li2c
+	$ ./read_temp 
+*/
+
 #include <stdlib.h>
 #include <unistd.h>
 #include <fcntl.h>

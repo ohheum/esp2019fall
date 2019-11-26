@@ -51,7 +51,7 @@ int main(){
             perror("Failed to reset the read address\n");
             return 1; 
         }   
-        if(read(file, tempReg, 1)!=1){
+        if(read(file, temp, 1)!=1){
             perror("Failed to read in the buffer\n");
             return 1; 
         }

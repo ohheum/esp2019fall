@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <wiringPi.h>
+#include <wiringPiSPI.h>
 #include <unistd.h>
 #include <time.h>
 

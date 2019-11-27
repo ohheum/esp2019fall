@@ -31,7 +31,7 @@ int main(void)  {
         buf[1] = 0x0F & buf[1];
         adcValue = (buf[1] << 8) | buf[2];
         digitalWrite(ADC_CS,1);                    // High : CS Inactive
-        printf(“CDS ADC Value -> %d\n",adcValue); 
+        printf("CDS ADC Value -> %d\n",adcValue); 
         usleep(100000);
     } 
     return 0;
